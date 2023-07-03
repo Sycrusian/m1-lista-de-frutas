@@ -1,0 +1,35 @@
+body {
+    font-family: "Calibri";
+    background-color: #f8f8f8;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+#logo {
+    height: 112px;
+    width: 93px;
+}
+
+#vida {
+    font-weight: normal;
+    color: #ff0000;
+}
+
+.fruit {
+    font-size: 25px;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    width: 600px;
+    margin: 10px;
+    color: #000000;
+    background-color: #f8f8f8;
+}
+
+.fruit:hover {
+    color: #f8f8f8;
+    background-color: #000000;
+    border: 2px solid #f8f8f8;
+}
